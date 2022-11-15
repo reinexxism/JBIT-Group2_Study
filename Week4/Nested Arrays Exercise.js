@@ -5,3 +5,6 @@ const airplaneSeats = [
   ["Luke", null, "Deniz"],
   ["Rin", "Sakura", "Francisco"],
 ];
+
+airplaneSeats[3][1] = "Hugo";
+console.log(airplaneSeats);
